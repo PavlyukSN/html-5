@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(./fonts/Gilroy-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./fonts/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #FFFFFF;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.mainContent__leftSide h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70.31px;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1174px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    gap: 14px;
+}
+
+.header {
+    font-family: 'Gilroy-Semibold';
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 84px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #000000;
+}
+
+.carrot {
+    color: #F25822;
+}
+
+.mainContent {
+    display: flex;
+    gap: 64px;
+    justify-content: space-between;
+}
+
+p {
+    font-family: 'Gilroy-Medium';
+    color: #888888;
+    font-size: 20px;
+    width: 466px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    line-height: 23.44px;
+}
+
+button {
+    font-family: 'Gilroy-Bold';
+    line-height: 17.58px;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0px;
+    font-size: 16px;
+    background: #F25822;
+    color: #FFFFFF;
+    border: none;
+    border: none;
+    cursor: pointer;
+}
+
+.second {
+    background: #FFFFFF;
+    color: #AAAAAA;
+}
+
+
+/* main {
+    margin-bottom: 100px;
+} */
+
+.logos {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    /* gap: 48px; */
+    justify-content: space-between;
+}
+
+.library {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 61px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.library p {
+    width: 310px;
+    height: 42px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #666666;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+.library a {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 16.5px;
+}
+
+.read {
+    max-width: 310px;
+    max-height: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.darkness {
+    width: 378px;
+    height: 310px;
+    padding: 40px 34px 40px 34px;
+    box-shadow: 15px 25px 56px 6px #0000000F;
+}
+
+.moreinfo {
+    height: 919px;
+    background: #FAFAFA;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: center;
+    gap: 48px;
+}
+
+.why {
+    width: 682px;
+    height: 123px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    /* margin-bottom: 48px; */
+}
+
+
+/* .space {
+    width: 10px;
+    height: 100px;
+} */
+
+.why h1 {
+    max-width: 579px;
+    max-height: 56px;
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 52.73px;
+}
+
+.why p {
+    width: 682px;
+    height: 48px;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.plates {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.plate {
+    background: #FFFFFF;
+    width: 370px;
+    height: 549px;
+    text-align: center;
+    border: 1.5px solid #FFFFFF;
+    /* padding: 0px 34px 34px 34px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plate h2 {
+    margin-top: 32px;
+}
+
+.plate button {
+    width: 140px;
+    font-size: 13px;
+    line-height: 19.5px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+
+.plate p {
+    width: 310px;
+    height: 63px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 22.5px;
+    text-align: center;
+    color: #AAAAAA;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.darklong {
+    box-shadow: 15px 25px 60px -5px #0000001A;
+}
